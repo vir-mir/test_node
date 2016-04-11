@@ -25,7 +25,7 @@ socket.on('message', function (msg) {
             console.log(msg);
             break;
         case 'point':
-            //console.log(msg);
+            console.log(msg);
             break;
         case 'asset_history':
             console.log(msg);
